@@ -1,0 +1,1735 @@
+fileFormatVersion: 2
+guid: ad6bc722c778c504b9e3b32f93193c62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3487658684215757350
+    second: FieldsTilesetTest_0
+  - first:
+      213: 2094238768866138013
+    second: FieldsTilesetTest_1
+  - first:
+      213: -6222556585366664784
+    second: FieldsTilesetTest_2
+  - first:
+      213: 4749949787868030499
+    second: FieldsTilesetTest_3
+  - first:
+      213: 7371487365781963661
+    second: FieldsTilesetTest_4
+  - first:
+      213: -6533160917322807543
+    second: FieldsTilesetTest_5
+  - first:
+      213: -8835851313311394554
+    second: FieldsTilesetTest_6
+  - first:
+      213: 3545069474845851584
+    second: FieldsTilesetTest_7
+  - first:
+      213: -8897534875395513
+    second: FieldsTilesetTest_8
+  - first:
+      213: -1309960088115706373
+    second: FieldsTilesetTest_9
+  - first:
+      213: 7396692747530610066
+    second: FieldsTilesetTest_10
+  - first:
+      213: 371810124812150796
+    second: FieldsTilesetTest_11
+  - first:
+      213: 810671223692275865
+    second: FieldsTilesetTest_12
+  - first:
+      213: -4841574615209322813
+    second: FieldsTilesetTest_13
+  - first:
+      213: 6780920915028396313
+    second: FieldsTilesetTest_14
+  - first:
+      213: 5792606123997760708
+    second: FieldsTilesetTest_15
+  - first:
+      213: 7950970184495471503
+    second: FieldsTilesetTest_16
+  - first:
+      213: -329335605213437165
+    second: FieldsTilesetTest_17
+  - first:
+      213: 7416076255901198414
+    second: FieldsTilesetTest_18
+  - first:
+      213: -9166618522168332388
+    second: FieldsTilesetTest_19
+  - first:
+      213: 305147167478317924
+    second: FieldsTilesetTest_20
+  - first:
+      213: -5951665202644556175
+    second: FieldsTilesetTest_21
+  - first:
+      213: -4489033868465525461
+    second: FieldsTilesetTest_22
+  - first:
+      213: -4754746109403364544
+    second: FieldsTilesetTest_23
+  - first:
+      213: -1072345763852563216
+    second: FieldsTilesetTest_24
+  - first:
+      213: 2185411364538097015
+    second: FieldsTilesetTest_25
+  - first:
+      213: -2563280380789655955
+    second: FieldsTilesetTest_26
+  - first:
+      213: 5334303493999974034
+    second: FieldsTilesetTest_27
+  - first:
+      213: 376636243067361706
+    second: FieldsTilesetTest_28
+  - first:
+      213: 5751461824472541893
+    second: FieldsTilesetTest_29
+  - first:
+      213: -6747678471405624104
+    second: FieldsTilesetTest_30
+  - first:
+      213: -4494126552476626340
+    second: FieldsTilesetTest_31
+  - first:
+      213: -7944525752583469360
+    second: FieldsTilesetTest_32
+  - first:
+      213: -2500157523930928206
+    second: FieldsTilesetTest_33
+  - first:
+      213: 2331135294104313207
+    second: FieldsTilesetTest_34
+  - first:
+      213: 2509607993281304065
+    second: FieldsTilesetTest_35
+  - first:
+      213: 1637498338510943654
+    second: FieldsTilesetTest_36
+  - first:
+      213: 8673620439256315809
+    second: FieldsTilesetTest_37
+  - first:
+      213: 7220679699477851639
+    second: FieldsTilesetTest_38
+  - first:
+      213: 888167496473936883
+    second: FieldsTilesetTest_39
+  - first:
+      213: -5333435357525886486
+    second: FieldsTilesetTest_40
+  - first:
+      213: -111067962118227967
+    second: FieldsTilesetTest_41
+  - first:
+      213: -1968847422897049090
+    second: FieldsTilesetTest_42
+  - first:
+      213: -7560897701015068898
+    second: FieldsTilesetTest_43
+  - first:
+      213: -7222307679024992997
+    second: FieldsTilesetTest_44
+  - first:
+      213: 3412425847571058809
+    second: FieldsTilesetTest_45
+  - first:
+      213: -4035311064913189817
+    second: FieldsTilesetTest_46
+  - first:
+      213: -5344504547520607660
+    second: FieldsTilesetTest_47
+  - first:
+      213: -4366905447683119254
+    second: FieldsTilesetTest_48
+  - first:
+      213: 1784390489442415139
+    second: FieldsTilesetTest_49
+  - first:
+      213: -7678173836069414515
+    second: FieldsTilesetTest_50
+  - first:
+      213: -7339528787105966564
+    second: FieldsTilesetTest_51
+  - first:
+      213: 5164059360737661153
+    second: FieldsTilesetTest_52
+  - first:
+      213: -2675108784692562913
+    second: FieldsTilesetTest_53
+  - first:
+      213: 4303623551153016121
+    second: FieldsTilesetTest_54
+  - first:
+      213: -7539260821355652506
+    second: FieldsTilesetTest_55
+  - first:
+      213: 5514148285991094463
+    second: FieldsTilesetTest_56
+  - first:
+      213: -5089674017622211211
+    second: FieldsTilesetTest_57
+  - first:
+      213: -2127806228881067875
+    second: FieldsTilesetTest_58
+  - first:
+      213: -863207624237147263
+    second: FieldsTilesetTest_59
+  - first:
+      213: -4601827510891284978
+    second: FieldsTilesetTest_60
+  - first:
+      213: -6094728643810950343
+    second: FieldsTilesetTest_61
+  - first:
+      213: 7513609588919649943
+    second: FieldsTilesetTest_62
+  - first:
+      213: 5087861573785468828
+    second: FieldsTilesetTest_63
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FieldsTilesetTest_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a8c7a4817a66030800000000000000
+      internalID: 3487658684215757350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971e15801b301d10800000000000000
+      internalID: 2094238768866138013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9c37e01c905a9a0800000000000000
+      internalID: -6222556585366664784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e0de6a263be140800000000000000
+      internalID: 4749949787868030499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83c6bf04b8cc4660800000000000000
+      internalID: 7371487365781963661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907428682cc8555a0800000000000000
+      internalID: -6533160917322807543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605d7ed7b00c06580800000000000000
+      internalID: -8835851313311394554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf7440a7ed923130800000000000000
+      internalID: 3545069474845851584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a106a3db360eff0800000000000000
+      internalID: -8897534875395513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf58ce58d3612dde0800000000000000
+      internalID: -1309960088115706373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29525415dd456a660800000000000000
+      internalID: 7396692747530610066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08625da65fe82500800000000000000
+      internalID: 371810124812150796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9903fcdce25104b00800000000000000
+      internalID: 810671223692275865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c656ea0a854fccb0800000000000000
+      internalID: -4841574615209322813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919c84635abaa1e50800000000000000
+      internalID: 6780920915028396313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc83a84498736050800000000000000
+      internalID: 5792606123997760708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b139ab145875e60800000000000000
+      internalID: 7950970184495471503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3136d5f0307fd6bf0800000000000000
+      internalID: -329335605213437165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48233c00123be660800000000000000
+      internalID: 7416076255901198414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe3aa5501a9c080800000000000000
+      internalID: -9166618522168332388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46303c96bb91c3400800000000000000
+      internalID: 305147167478317924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176615e0800776da0800000000000000
+      internalID: -5951665202644556175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d2a650b7fb3b1c0800000000000000
+      internalID: -4489033868465525461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04387dfea9fb30eb0800000000000000
+      internalID: -4754746109403364544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc4c2595334e11f0800000000000000
+      internalID: -1072345763852563216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d1567ae04245e10800000000000000
+      internalID: 2185411364538097015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66fd4313166d6cd0800000000000000
+      internalID: -2563280380789655955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2965ef3f3c0470a40800000000000000
+      internalID: 5334303493999974034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95195eaa41a3500800000000000000
+      internalID: 376636243067361706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cae7ea8e0c41df40800000000000000
+      internalID: 5751461824472541893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d421555e2e6b52a0800000000000000
+      internalID: -6747678471405624104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52daff16b7a1a1c0800000000000000
+      internalID: -4494126552476626340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6c1508bef5fb190800000000000000
+      internalID: -7944525752583469360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bba3977af7ad4dd0800000000000000
+      internalID: -2500157523930928206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d9678f23bd95020800000000000000
+      internalID: 2331135294104313207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10653056c2be3d220800000000000000
+      internalID: 2509607993281304065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5bc33201099b610800000000000000
+      internalID: 1637498338510943654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7b07ea5d3ee5870800000000000000
+      internalID: 8673620439256315809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd604c0ee1053460800000000000000
+      internalID: 7220679699477851639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f38060e1a7635c00800000000000000
+      internalID: 888167496473936883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae93922dcc4dbf5b0800000000000000
+      internalID: -5333435357525886486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1083404e648657ef0800000000000000
+      internalID: -111067962118227967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1374543bf3da4e0800000000000000
+      internalID: -1968847422897049090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fddeba99b421790800000000000000
+      internalID: -7560897701015068898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1da32d6e6535cb90800000000000000
+      internalID: -7222307679024992997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97095d28a3f5b5f20800000000000000
+      internalID: 3412425847571058809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74465a967f1bff7c0800000000000000
+      internalID: -4035311064913189817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a03903e6184d5b0800000000000000
+      internalID: -5344504547520607660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672127d1a2a563c0800000000000000
+      internalID: -4366905447683119254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322fccf22bd63c810800000000000000
+      internalID: 1784390489442415139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d895269a395a17590800000000000000
+      internalID: -7678173836069414515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c169bc16471c42a90800000000000000
+      internalID: -7339528787105966564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e09cc3d0ac6aa740800000000000000
+      internalID: 5164059360737661153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f147fd0dbba10ead0800000000000000
+      internalID: -2675108784692562913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d0b7571da89bb30800000000000000
+      internalID: 4303623551153016121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a931a4a3a2f5790800000000000000
+      internalID: -7539260821355652506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb80451a6a0368c40800000000000000
+      internalID: 5514148285991094463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575c71d7278dd59b0800000000000000
+      internalID: -5089674017622211211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d903ea822838872e0800000000000000
+      internalID: -2127806228881067875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b9fed3d354504f0800000000000000
+      internalID: -863207624237147263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0674b7a2460320c0800000000000000
+      internalID: -4601827510891284978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9330047f69c2b6ba0800000000000000
+      internalID: -6094728643810950343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7964680cc14b54860800000000000000
+      internalID: 7513609588919649943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldsTilesetTest_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb7db0527bb9640800000000000000
+      internalID: 5087861573785468828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FieldsTilesetTest_0: 3487658684215757350
+      FieldsTilesetTest_1: 2094238768866138013
+      FieldsTilesetTest_10: 7396692747530610066
+      FieldsTilesetTest_11: 371810124812150796
+      FieldsTilesetTest_12: 810671223692275865
+      FieldsTilesetTest_13: -4841574615209322813
+      FieldsTilesetTest_14: 6780920915028396313
+      FieldsTilesetTest_15: 5792606123997760708
+      FieldsTilesetTest_16: 7950970184495471503
+      FieldsTilesetTest_17: -329335605213437165
+      FieldsTilesetTest_18: 7416076255901198414
+      FieldsTilesetTest_19: -9166618522168332388
+      FieldsTilesetTest_2: -6222556585366664784
+      FieldsTilesetTest_20: 305147167478317924
+      FieldsTilesetTest_21: -5951665202644556175
+      FieldsTilesetTest_22: -4489033868465525461
+      FieldsTilesetTest_23: -4754746109403364544
+      FieldsTilesetTest_24: -1072345763852563216
+      FieldsTilesetTest_25: 2185411364538097015
+      FieldsTilesetTest_26: -2563280380789655955
+      FieldsTilesetTest_27: 5334303493999974034
+      FieldsTilesetTest_28: 376636243067361706
+      FieldsTilesetTest_29: 5751461824472541893
+      FieldsTilesetTest_3: 4749949787868030499
+      FieldsTilesetTest_30: -6747678471405624104
+      FieldsTilesetTest_31: -4494126552476626340
+      FieldsTilesetTest_32: -7944525752583469360
+      FieldsTilesetTest_33: -2500157523930928206
+      FieldsTilesetTest_34: 2331135294104313207
+      FieldsTilesetTest_35: 2509607993281304065
+      FieldsTilesetTest_36: 1637498338510943654
+      FieldsTilesetTest_37: 8673620439256315809
+      FieldsTilesetTest_38: 7220679699477851639
+      FieldsTilesetTest_39: 888167496473936883
+      FieldsTilesetTest_4: 7371487365781963661
+      FieldsTilesetTest_40: -5333435357525886486
+      FieldsTilesetTest_41: -111067962118227967
+      FieldsTilesetTest_42: -1968847422897049090
+      FieldsTilesetTest_43: -7560897701015068898
+      FieldsTilesetTest_44: -7222307679024992997
+      FieldsTilesetTest_45: 3412425847571058809
+      FieldsTilesetTest_46: -4035311064913189817
+      FieldsTilesetTest_47: -5344504547520607660
+      FieldsTilesetTest_48: -4366905447683119254
+      FieldsTilesetTest_49: 1784390489442415139
+      FieldsTilesetTest_5: -6533160917322807543
+      FieldsTilesetTest_50: -7678173836069414515
+      FieldsTilesetTest_51: -7339528787105966564
+      FieldsTilesetTest_52: 5164059360737661153
+      FieldsTilesetTest_53: -2675108784692562913
+      FieldsTilesetTest_54: 4303623551153016121
+      FieldsTilesetTest_55: -7539260821355652506
+      FieldsTilesetTest_56: 5514148285991094463
+      FieldsTilesetTest_57: -5089674017622211211
+      FieldsTilesetTest_58: -2127806228881067875
+      FieldsTilesetTest_59: -863207624237147263
+      FieldsTilesetTest_6: -8835851313311394554
+      FieldsTilesetTest_60: -4601827510891284978
+      FieldsTilesetTest_61: -6094728643810950343
+      FieldsTilesetTest_62: 7513609588919649943
+      FieldsTilesetTest_63: 5087861573785468828
+      FieldsTilesetTest_7: 3545069474845851584
+      FieldsTilesetTest_8: -8897534875395513
+      FieldsTilesetTest_9: -1309960088115706373
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

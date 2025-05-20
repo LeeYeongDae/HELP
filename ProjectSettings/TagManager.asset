@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
+  - Path
+  - LBt
+  - Item
+  - RBt
+  - Handy
+  - GSight
+  - BackRoom
+  - Obstacle
+  - PassKey
   layers:
   - Default
   - TransparentFX
@@ -12,7 +22,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Interactable
   - 
   - 
   - 

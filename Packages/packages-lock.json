@@ -98,12 +98,20 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.adaptiveperformance": {
-      "version": "4.0.1",
+      "version": "5.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.profiling.core": "1.0.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.adaptiveperformance.samsung.android": {
+      "version": "5.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.profiling.core": "1.0.2",
-        "com.unity.subsystemregistration": "1.1.0"
+        "com.unity.adaptiveperformance": "5.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -137,7 +145,7 @@
     },
     "com.unity.collections": {
       "version": "1.2.4",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.6.6",
@@ -187,7 +195,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
+      "version": "2.0.23",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -234,6 +242,36 @@
       "dependencies": {
         "com.unity.modules.androidjni": "1.0.0"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.multiplayer.tools": {
+      "version": "1.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.collections": "1.1.0",
+        "com.unity.profiling.core": "1.0.0-pre.1",
+        "com.unity.nuget.mono-cecil": "1.10.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.netcode.gameobjects": {
+      "version": "1.11.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.transport": "1.4.0",
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.10.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
@@ -332,15 +370,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.subsystemregistration": {
-      "version": "1.1.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.test-framework": {
       "version": "1.1.33",
       "depth": 0,
@@ -353,7 +382,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {

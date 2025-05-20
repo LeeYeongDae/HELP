@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Name: WSA Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -4228231366467592330}
-  m_InitManagerOnStart: 1
+  m_InitManagerOnStart: 0
 --- !u!114 &-4228231366467592330
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -59,7 +59,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders: []
+  m_Loaders:
+  - {fileID: 11400000, guid: 0f132e7762e472941b54aed6d2aa6974, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -90,7 +91,7 @@ MonoBehaviour:
   m_Name: Android Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -2826668512994081777}
-  m_InitManagerOnStart: 1
+  m_InitManagerOnStart: 0
 --- !u!114 &4089363920477171568
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -104,4 +105,4 @@ MonoBehaviour:
   m_Name: Standalone Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -6653862794011468164}
-  m_InitManagerOnStart: 1
+  m_InitManagerOnStart: 0

@@ -8,6 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InLobby.unity
     guid: 25783b7eb4cca414883cc53141cb6a28
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2bde53c0f6de913428b8419a91830bb0, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 6942fea8c2c0c4b4988998b52ecd588a, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 46be2f77d743de9418f602a85ed2c10c, type: 2}
