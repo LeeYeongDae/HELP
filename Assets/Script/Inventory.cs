@@ -18,7 +18,7 @@ public class Inventory : MonoBehaviour
     public GameObject L_Hand, R_Hand;
     int Objindex, Lindex, Rindex;
 
-    private PlayableChr localPlayer;
+    [SerializeField] private PlayableChr localPlayer;
 
     public void SetLocalPlayer(PlayableChr player)
     {

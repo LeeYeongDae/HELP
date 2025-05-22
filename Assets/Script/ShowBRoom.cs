@@ -16,7 +16,7 @@ public class ShowBRoom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        player = GameObject.Find("Player").GetComponent<PlayableChr>();
+        player = GameObject.FindWithTag("Player").GetComponent<PlayableChr>();
     }
 
     void OnTriggerStay2D(Collider2D collision)

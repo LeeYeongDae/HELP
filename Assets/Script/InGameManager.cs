@@ -3,13 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Unity.Netcode;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class InGameManager : MonoBehaviour
 {
     public static InGameManager instance;
     public GameObject interObj;
-    public bool nightguard = false;
+    public static bool nightguard = false;
 
     public Text GameOverTxt;
     public Text DutyTxT;
@@ -19,9 +21,15 @@ public class InGameManager : MonoBehaviour
     [SerializeField]
     private Image sliderImg;
 
+    [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private Vector3[] spawnPoints;
+    [SerializeField] private EventManager eventManager;
+
     public int GuardOnDuty;
 
-    public bool isClear;
+    public static bool nextday;
+
+    public static bool isClear;
     public static bool isOver;
 
     public int LifeCount;
@@ -48,6 +56,7 @@ public class InGameManager : MonoBehaviour
 
     private void Awake()
     {
+        Application.targetFrameRate = 60;
         GameObject go = GameObject.Find("GameManager");
         if (go == null)
         {
@@ -63,6 +72,7 @@ public class InGameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         hour = 7;
         pm = false;
 
@@ -88,6 +98,7 @@ public class InGameManager : MonoBehaviour
 
         if (inTime >= 1440f)
         {
+            nextday = inTime == 1440f ? true : false;
             nightguard = false;
             inTime -= 1440f;
         }
@@ -181,5 +192,44 @@ public class InGameManager : MonoBehaviour
     {
         GameOverTxt.gameObject.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    void GameClear()
+    {
+        GameOverTxt.text = "Clear";
+        GameOverTxt.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    private void OnEnable()
+    {
+        if (NetworkManager.Singleton.IsServer)
+        {
+            // 씬 로딩 완료 후 호출될 콜백 등록
+            NetworkManager.Singleton.SceneManager.OnLoadComplete += OnSceneLoadComplete;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (NetworkManager.Singleton.IsServer)
+        {
+            NetworkManager.Singleton.SceneManager.OnLoadComplete -= OnSceneLoadComplete;
+        }
+    }
+
+    private void OnSceneLoadComplete(ulong clientId, string sceneName, LoadSceneMode loadSceneMode)
+    {
+        if (!NetworkManager.Singleton.SpawnManager.GetPlayerNetworkObject(clientId))
+        {
+            var playerInstance = Instantiate(playerPrefab, GetStartPositionForClient(clientId), Quaternion.identity);
+            playerInstance.GetComponent<NetworkObject>().SpawnAsPlayerObject(clientId, true); // true는 ownership 부여
+            playerInstance.GetComponent<PlayableChr>().eventManager = eventManager;
+        }
+    }
+    private Vector3 GetStartPositionForClient(ulong clientId)
+    {
+        int index = (int)(clientId % (ulong)spawnPoints.Length);
+        return spawnPoints[index];
     }
 }

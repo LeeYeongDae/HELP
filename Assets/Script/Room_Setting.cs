@@ -8,6 +8,8 @@ public class Room_Setting : MonoBehaviour
     public GameObject[] roomtype;
     List<int> roomList = new List<int>();
 
+    [SerializeField]
+    public GameObject[] item;
     void Awake()
     {
         for (int i = 0; i < 7;)
@@ -67,5 +69,11 @@ public class Room_Setting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (InGameManager.nextday)
+            for(int i = 0; i < item.Length; i++)
+            {
+                Instantiate(item[i], item[i].transform.position, Quaternion.identity);
+            }
+
     }
 }

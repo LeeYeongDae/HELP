@@ -5,8 +5,6 @@ using UnityEngine;
 public class Prison_Lock : MonoBehaviour
 {
     public GameObject door;
-    InGameManager inGame;
-    public bool lock_state;
     void Start()
     {
     }
@@ -14,9 +12,7 @@ public class Prison_Lock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inGame = GameObject.Find("GameManager").GetComponent<InGameManager>();
-        lock_state = inGame.nightguard;
-        if (lock_state == true)
+        if (InGameManager.nightguard)
             door.gameObject.SetActive(true);
         else
             door.gameObject.SetActive(false);

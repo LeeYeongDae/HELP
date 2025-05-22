@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: User1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -266,7 +266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33999830320689324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: 50, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -291,7 +291,7 @@ MonoBehaviour:
   InScenePlacedSourceGlobalObjectIdHash: 2294725873
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
-  ActiveSceneSynchronization: 0
+  ActiveSceneSynchronization: 1
   SceneMigrationSynchronization: 1
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
@@ -339,6 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3de707955d04784eaa010bec8ddf4c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LPD: {fileID: 0}
   joy: {fileID: 0}
   m_renderer: {fileID: 0}
   m_nameOutput: {fileID: 588875826}
@@ -351,13 +352,16 @@ MonoBehaviour:
   useItemId: 0
   onBreaking: 0
   warnMode: 0
-  suspectLevel: 0
   interTile: {fileID: 0}
   tilePos: {x: 0, y: 0, z: 0}
   hitTile: {fileID: 0}
   interObject: {fileID: 0}
-  spawnPoints: []
-  playerCamera: {fileID: 0}
+  spawnPoints:
+  - {x: -12, y: 51, z: 0}
+  - {x: 10, y: 51, z: 0}
+  - {x: 35, y: 51, z: 0}
+  - {x: 55, y: 51, z: 0}
+  playerCamera: {fileID: 2141796716347774854}
 --- !u!50 &33999830320689321
 Rigidbody2D:
   serializedVersion: 4

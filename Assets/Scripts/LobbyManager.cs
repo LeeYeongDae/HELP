@@ -226,6 +226,7 @@ public class LobbyManager : MonoBehaviour
     public async void LobbyStart()
     {
         Lobby lobby = await Lobbies.Instance.GetLobbyAsync(joinedLobbyId);
+        LobbyPlayerData.Instance.joinedLobby = joinedLobby;
         currentLobbyPlayers = lobby.Players;
         string JoinCode = await relayManager.StartHostWithRelay(lobby.MaxPlayers);
         isJoined = true;
@@ -404,6 +405,14 @@ public class LobbyManager : MonoBehaviour
         if (joinedLobby == null || joinedLobby.Players == null) return null;
 
         return joinedLobby.Players.FirstOrDefault(p => p.Id == playerId);
+    }
+
+    public string GetNameById(string playerId)
+    {
+        var player = GetPlayerById(playerId);
+        if (joinedLobby != null || player.Data.ContainsKey("Name")) return player.Data["Name"].Value;
+
+        return "NoName";
     }
 
     private async void LobbyHeartbeat(Lobby lobby)

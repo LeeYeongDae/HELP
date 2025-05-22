@@ -35,7 +35,7 @@ public class Interaction : MonoBehaviour, IObjectItem
 
     private void Update()
     {
-        player = GameObject.Find("Player").GetComponent<PlayableChr>();
+        player = GameObject.FindWithTag("Player").GetComponent<PlayableChr>();
         interTile = player.GetTilemap();
         hitTile = player.GethitTile();
         tilePos = player.gettilePos();
@@ -94,7 +94,7 @@ public class Interaction : MonoBehaviour, IObjectItem
                     StartCoroutine(WaitForIt());
                     return;
                 }
-                int rand = new System.Random().Next(1);
+                int rand = new System.Random().Next(3);
                 if(rand < 1) inven.RemoveItem(inven.FindItem(101));
                 StartCoroutine(WaitForIt());
             }
@@ -110,7 +110,7 @@ public class Interaction : MonoBehaviour, IObjectItem
                     StartCoroutine(WaitForIt());
                     return;
                 }
-                int rand = new System.Random().Next(1);
+                int rand = new System.Random().Next(5);
                 if (rand < 1) inven.RemoveItem(inven.FindItem(102));
                 StartCoroutine(WaitForIt());
             }

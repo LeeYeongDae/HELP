@@ -5,13 +5,15 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using TMPro;
 using LobbyRelay;
+using Unity.Services.Lobbies.Models;
+using Unity.Services.Authentication;
+using System.Collections;
 
 public class PlayableChr : NetworkBehaviour
 {
+    public LobbyPlayerData LPD;
     public Joystick joy;
-    EventManager eventManager;
-    [SerializeField]
-    SpriteRenderer m_renderer = default;
+    public EventManager eventManager;
     [SerializeField]
     TMP_Text m_nameOutput = default;
     Camera m_mainCamera;
@@ -35,36 +37,37 @@ public class PlayableChr : NetworkBehaviour
     public bool onBreaking;
 
     public int warnMode;    //아이템 의심레벨 합계
-    public float suspectLevel;
     public Tilemap interTile;
     public Vector3Int tilePos;
     public TileBase hitTile;
     public GameObject interObject;
 
-    [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private Vector3[] spawnPoints;
     [SerializeField] private Camera playerCamera;
+
+    void Awake()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+    }
+
 
     private Vector3 GetStartPositionForClient(ulong clientId)
     {
         int index = (int)(clientId % (ulong)spawnPoints.Length);
-        return spawnPoints[index].position;
+        return spawnPoints[index];
     }
     public override void OnNetworkSpawn()
     {
+        
         base.OnNetworkSpawn();
 
         if (IsOwner)
         {
-            // 카메라 세팅 또는 UI 연결
-            joy = FindObjectOfType<Joystick>();
-            eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
-
+            
             // UI 연결 등
-            GameObject.Find("Inventory").GetComponent<Inventory>().SetLocalPlayer(this);
 
-            // 이름, 색상 등 네트워크 플레이어 식별용 세팅
             //m_renderer.color = Color.cyan; // 예시
-            m_nameOutput.text = $"Player {OwnerClientId}";
+            //m_nameOutput.text = $"Player {OwnerClientId}";
         }
         else
         {
@@ -73,32 +76,37 @@ public class PlayableChr : NetworkBehaviour
 
         if (IsServer)
         {
-            transform.position = GetStartPositionForClient(OwnerClientId);
+            this.transform.position = GetStartPositionForClient(OwnerClientId);
         }
     }
 
-    void Awake()
-    {
-        rigid = GetComponent<Rigidbody2D>();
-    }
-
+    
     void Start()
     {
         warnMode = 0;
+
+        if (OwnerClientId == 0)
+            this.transform.position = new Vector3(-12, 51);
+
+
         if (IsOwner)
         {
+
+            string myId = AuthenticationService.Instance.PlayerId;
+            string myName = LobbyPlayerData.Instance.GetPlayerNameById(myId);
+            SetNameServerRpc(myName);
+
             playerCamera.enabled = true;
-            AudioListener listener = playerCamera.GetComponent<AudioListener>();
-            if (listener != null) listener.enabled = true;
+            playerCamera.GetComponent<AudioListener>().enabled = true;
         }
         else
         {
             playerCamera.enabled = false;
-            AudioListener listener = playerCamera.GetComponent<AudioListener>();
-            if (listener != null) listener.enabled = false;
+            playerCamera.GetComponent<AudioListener>().enabled = false;
         }
     }
 
+    
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -106,6 +114,8 @@ public class PlayableChr : NetworkBehaviour
 
         
         eventManager = GameObject.Find("EventManager").GetComponent<EventManager>();
+        joy = eventManager.joy;
+        GameObject.Find("Inventory").GetComponent<Inventory>().SetLocalPlayer(this);
         m_inven = GameObject.Find("Inventory").GetComponent<Inventory>().items;
 
         if (isRun)
@@ -180,11 +190,11 @@ public class PlayableChr : NetworkBehaviour
         float y = Input.GetAxisRaw("Vertical");
 
         moveVec = new Vector2(x, y) * speed * p_status * Time.deltaTime;
-        if (joy.Direction != Vector2.zero)
+        if (joy != null && joy.Direction != Vector2.zero)
             moveVec = joy.Direction * speed * p_status * Time.deltaTime;
-        rigid.MovePosition(rigid.position + moveVec);
+        this.rigid.MovePosition(rigid.position + moveVec);
         dirView = Quaternion.Euler(0, 0, 0) * moveVec;
-        net_position.Value = transform.position;
+        net_position.Value = this.transform.position;
     }
     void Interact()
     {
@@ -239,4 +249,24 @@ public class PlayableChr : NetworkBehaviour
         return tilePos;
     }
 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Finish"))
+        {
+            InGameManager.isClear = true;
+        }
+    }
+
+    [ServerRpc]
+    void SetNameServerRpc(string playerName)
+    {
+        SetNameClientRpc(playerName);
+    }
+
+    [ClientRpc]
+    void SetNameClientRpc(string playerName)
+    {
+        m_nameOutput.text = playerName;
+    }
 }

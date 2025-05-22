@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class EventManager : MonoBehaviour
 {
+    public static EventManager Instance;
+
     public Joystick joy;
     GameObject button;
     public GameObject Lhand, Rhand;
