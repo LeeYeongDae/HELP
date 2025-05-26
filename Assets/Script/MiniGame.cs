@@ -23,12 +23,11 @@ public class MiniGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OnPicking) OnminiGame = true;
+        OnminiGame = OnPicking ? true:false;
         LockPicking.SetActive(OnPicking);
         if(isFail)
         {
             OnPicking = false;
-            OnminiGame = false;
             isFail = false;
             this.gameObject.SetActive(false);
         }

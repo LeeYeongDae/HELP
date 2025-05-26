@@ -14,6 +14,7 @@ public class Interaction : MonoBehaviour, IObjectItem
 {
     Inventory inven;
 
+    GameObject playerObj;
     PlayableChr player;
     public Tilemap interTile;
     TileBase hitTile;
@@ -33,15 +34,21 @@ public class Interaction : MonoBehaviour, IObjectItem
         door = GameObject.Find("Door").GetComponent<Tilemap>();
     }
 
+    void Start()
+    {
+        playerObj = GameObject.FindWithTag("Player");
+    }
+
     private void Update()
     {
-        player = GameObject.FindWithTag("Player").GetComponent<PlayableChr>();
+        if(playerObj.GetComponent<PlayableChr>().IsOwner) player = playerObj.GetComponent<PlayableChr>();
         interTile = player.GetTilemap();
         hitTile = player.GethitTile();
         tilePos = player.gettilePos();
-        if (onMinigame && minigame.GetComponent<MiniGame>().isSuccess)
+        if (minigame != null && minigame.GetComponent<MiniGame>().isSuccess)
         {
             door.SetTile(tilePos, null);
+            minigame.GetComponent<MiniGame>().isSuccess = false;
         }
     }
 
@@ -111,10 +118,25 @@ public class Interaction : MonoBehaviour, IObjectItem
                     return;
                 }
                 int rand = new System.Random().Next(5);
-                if (rand < 1) inven.RemoveItem(inven.FindItem(102));
+                if (rand < 2) inven.RemoveItem(inven.FindItem(102));
                 StartCoroutine(WaitForIt());
             }
-            if (GetHand() && player.useItemId == 104 && this.gameObject.name == "Door" && !player.onBreaking)
+            if (GetHand() && player.useItemId == 103 && this.gameObject.name == "CraftTable")
+            {
+                try
+                {
+                    inven.AddItem(obtem);
+                }
+                catch
+                {
+                    StartCoroutine(WaitForIt());
+                    return;
+                }
+                inven.RemoveItem(inven.FindItem(103));
+                StartCoroutine(WaitForIt());
+                inven.FreshSlot();
+            }
+            if (GetHand() && player.useItemId == 104 && this.gameObject.name == "Door")
             {
                 try
                 {
@@ -126,6 +148,19 @@ public class Interaction : MonoBehaviour, IObjectItem
                     return;
                 }
                 inven.RemoveItem(inven.FindItem(104));
+                StartCoroutine(WaitForIt());
+            }
+            if (GetHand() && player.useItemId == 105 && this.gameObject.name == "PrisonDoor")
+            {
+                try
+                {
+                    interTile.SetTile(tilePos, null);
+                }
+                catch
+                {
+                    StartCoroutine(WaitForIt());
+                    return;
+                }
                 StartCoroutine(WaitForIt());
             }
         }

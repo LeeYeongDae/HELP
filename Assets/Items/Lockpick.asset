@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   itemName: "\uB77D\uD53D"
-  itemImage: {fileID: 21300000, guid: 64f3a149023e57047aeac0faca757e11, type: 3}
+  itemImage: {fileID: 21300000, guid: 69b3f0bb9b376df45a727da665019b7c, type: 3}
   sus_Level: 4
   itemSize: 0
+  itemCount: 0
   itemDesc: "\uAC04\uC774\uB85C \uB9CC\uB4E0 \uB77D\uD53D\uC774\uB2E4. \uD55C\uBC88
     \uC4F0\uBA74 \uBD80\uB7EC\uC9C8 \uB4EF\uD558\uB2E4."

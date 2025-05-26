@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   itemName: Nail
-  itemImage: {fileID: 21300000, guid: da7319170c602e34d8f0c82e0cf3343c, type: 3}
+  itemImage: {fileID: 21300000, guid: 6143cc621284b9e458766460ff003be5, type: 3}
   sus_Level: 1
   itemSize: 0
+  itemCount: 0
   itemDesc: "\uB05D\uC774 \uBFB0\uC871\uD55C \uBABB\uC774\uB2E4. \uCC14\uB9AC\uC9C0
     \uC54A\uAC8C \uC870\uC2EC\uD558\uC790."

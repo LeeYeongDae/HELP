@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   itemName: Pin
-  itemImage: {fileID: 21300000, guid: aae76f4158c27c843b83095d8fa3251f, type: 3}
+  itemImage: {fileID: 21300000, guid: 3abc334853e14a744a0048975643167a, type: 3}
   sus_Level: 0
   itemSize: 0
   itemCount: 0

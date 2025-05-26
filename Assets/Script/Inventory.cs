@@ -148,7 +148,7 @@ public class Inventory : MonoBehaviour
             items.Remove(_item);
             for(int i=delIndex-1;i<slots.Length-1;i++)
             {
-                if (slots[i].quantity == 0 && slots[i + 1].quantity == 0) break;
+                if (slots[i].quantity == slots[i + 1].quantity || i == 8) break;
                 slots[i].quantity = slots[i + 1].quantity;
                 slots[i].count.text = slots[i].quantity.ToString();
             }

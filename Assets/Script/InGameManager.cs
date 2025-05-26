@@ -83,6 +83,7 @@ public class InGameManager : MonoBehaviour
     void Update()
     {
         if (isOver) GameOver();
+        if (isClear) GameClear();
 
         inTime += 3f * Time.deltaTime;
         if (inTime >= 930f) nightguard = true;

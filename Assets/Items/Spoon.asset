@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   itemName: Spoon
-  itemImage: {fileID: 21300000, guid: 3fff347a71aec23458e029972ee3bda3, type: 3}
+  itemImage: {fileID: 21300000, guid: c35de43cac4ce6145bd4f36978cc3c69, type: 3}
   sus_Level: 0
   itemSize: 0
+  itemCount: 0
   itemDesc: "\uC2DD\uC0AC \uC2DC\uAC04\uC758 \uD30C\uD2B8\uB108\uB2E4. \uBB58 \uD30C\uBA39\uAE30
     \uC88B\uC544\uBCF4\uC778\uB2E4."
