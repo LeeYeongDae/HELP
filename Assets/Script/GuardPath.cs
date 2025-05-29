@@ -17,6 +17,7 @@ public class GuardPath : MonoBehaviour
     public float speed = 10f;
     public bool isFixd = false; //목적지 도착 시 이동 X
     public GameObject Destination;
+    public GameObject player;
 
 
     public bool onWorkGuard;
@@ -39,6 +40,7 @@ public class GuardPath : MonoBehaviour
     void Update()
     {
         startPos = gameObject.transform.position;
+        player = sight.GetComponent<GuardSearch>().Player;
         
         if ((Vector2)CurPin.transform.position == startPos)
         {
@@ -157,13 +159,30 @@ public class GuardPath : MonoBehaviour
 
     void GuardRotate()
     {
-        if(this.state == 1 && isFixd)
-        {
-            
-        }
         Vector3 dir = destiPos - currPosition;
         Vector3 qut = Quaternion.Euler(0, 0, -90) * dir;
-        Quaternion rot = Quaternion.LookRotation(forward: Vector3.forward, upwards: qut);
-        this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, rot, Time.deltaTime * 300f);
+        if (player != null)
+        {
+            FacePlayer();
+        }
+        else
+        {
+            Quaternion rot = Quaternion.LookRotation(forward: Vector3.forward, upwards: qut);
+            this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, rot, Time.deltaTime * 200f);
+        }
+    }
+    void FacePlayer()
+    {
+        Vector3 dir = (Vector2)player.transform.position - currPosition;
+        Vector3 qut = Quaternion.Euler(0, 0, -90) * dir;
+        float distance = Vector3.Distance(player.transform.position, transform.position);
+        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, qut, distance-0.5f, LayerMask.GetMask("Wall"));
+        if (rayHit.collider == null)
+        {
+            Quaternion rot = Quaternion.LookRotation(forward: Vector3.forward, upwards: qut);
+            this.transform.rotation = Quaternion.RotateTowards(this.transform.rotation, rot, Time.deltaTime * 50f);
+        }
+        //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        //transform.rotation = Quaternion.AngleAxis(angle + 180f, Vector3.forward);
     }
 }

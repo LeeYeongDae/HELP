@@ -6,7 +6,7 @@ public class GuardSearch : MonoBehaviour
 {
     public int player_warnLv;
     int night_warnLv;
-    GameObject Player;
+    public GameObject Player;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,9 @@ public class GuardSearch : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
             this.Player = collision.gameObject;
+    
     }
+
     public void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

@@ -104,6 +104,7 @@ public class Interaction : MonoBehaviour, IObjectItem
                 int rand = new System.Random().Next(3);
                 if(rand < 1) inven.RemoveItem(inven.FindItem(101));
                 StartCoroutine(WaitForIt());
+                player.onBreaking = false;
             }
             if (GetHand() && player.useItemId == 102 && this.gameObject.name == "BreakableDirt" && !player.onBreaking)
             {
@@ -120,6 +121,7 @@ public class Interaction : MonoBehaviour, IObjectItem
                 int rand = new System.Random().Next(5);
                 if (rand < 2) inven.RemoveItem(inven.FindItem(102));
                 StartCoroutine(WaitForIt());
+                player.onBreaking = false;
             }
             if (GetHand() && player.useItemId == 103 && this.gameObject.name == "CraftTable")
             {
