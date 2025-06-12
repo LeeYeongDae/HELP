@@ -32,6 +32,8 @@ public class InGameManager : MonoBehaviour
     public static bool isClear;
     public static bool isOver;
 
+    public static bool allSlept;
+
     public int LifeCount;
     public static float susLv;
 
@@ -84,6 +86,14 @@ public class InGameManager : MonoBehaviour
     {
         if (isOver) GameOver();
         if (isClear) GameClear();
+
+        if (allSlept)
+        {
+            inTime = 1410f;
+            hour = 6;
+            min = 30f;
+            allSlept = false;
+        }
 
         inTime += 3f * Time.deltaTime;
         if (inTime >= 930f) nightguard = true;

@@ -14,6 +14,7 @@ TagManager:
   - BackRoom
   - Obstacle
   - PassKey
+  - Bed
   layers:
   - Default
   - TransparentFX

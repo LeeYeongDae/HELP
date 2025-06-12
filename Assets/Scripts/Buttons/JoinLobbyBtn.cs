@@ -9,6 +9,6 @@ public class JoinLobbyBtn : MonoBehaviour
 
     public void JoinLobbyBtnPressed()
     {
-        LobbyManager.Instance.JoinLobby(lobby.Id, lobby.HasPassword);
+        LobbyManager.Instance.JoinLobby(lobby.Id, lobby.IsPrivate);
     }
 }

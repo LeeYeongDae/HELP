@@ -149,14 +149,20 @@ public class LobbyManager : MonoBehaviour
             try
             {
                 joinedLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId, joinOption);
-                //{ Player = PlayerData, Password = await InputPassword()});
+                String privPwd = joinOption.Password;
 
                 joinedLobbyId = lobbyId;
 
 
                 OnceUpdateLobbyInfo(joinedLobby);
                 Parent_LobbyList.SetActive(false);
-                Parent_InLobby.SetActive(true);
+                Parent_InputPwd.SetActive(true);
+
+                if(InputPassword(privPwd).Result)
+                {
+                    Parent_InputPwd.SetActive(false);
+                    Parent_InLobby.SetActive(true);
+                }
             }
             catch (LobbyServiceException e)
             {
@@ -184,7 +190,7 @@ public class LobbyManager : MonoBehaviour
         joinLobbyEvent?.Invoke(joinedLobby);
     }
 
-    private async Task<string> InputPassword()
+    private async Task<bool> InputPassword(String privPwd)
     {
         bool waiting = true;
         Parent_InputPwd.SetActive(true);
@@ -195,7 +201,7 @@ public class LobbyManager : MonoBehaviour
             await Task.Yield();
         }
         Parent_InputPwd.SetActive(false);
-        return IF_InputPwd.text;
+        return IF_InputPwd.text == privPwd;
     }
 
     public async void RefreshLobbies()

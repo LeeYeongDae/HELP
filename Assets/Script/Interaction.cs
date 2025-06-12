@@ -81,6 +81,10 @@ public class Interaction : MonoBehaviour, IObjectItem
                 if (!inven.invenFull && workGage.value == workGage.maxValue)
                     this.ObtainItem(obtem);
             }
+            if (this.gameObject.tag == "Bed" && InGameManager.nightguard)
+            {
+                InGameManager.allSlept = true;
+            }
                 
         }
     }
@@ -131,12 +135,13 @@ public class Interaction : MonoBehaviour, IObjectItem
                 }
                 catch
                 {
+                    inven.FreshSlot();
                     StartCoroutine(WaitForIt());
                     return;
                 }
                 inven.RemoveItem(inven.FindItem(103));
-                StartCoroutine(WaitForIt());
                 inven.FreshSlot();
+                StartCoroutine(WaitForIt());
             }
             if (GetHand() && player.useItemId == 104 && this.gameObject.name == "Door")
             {

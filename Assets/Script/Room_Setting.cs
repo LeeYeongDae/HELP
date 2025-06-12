@@ -72,7 +72,7 @@ public class Room_Setting : MonoBehaviour
         if (InGameManager.nextday)
             for(int i = 0; i < item.Length; i++)
             {
-                Instantiate(item[i], item[i].transform.position, Quaternion.identity);
+                item[i].SetActive(true);
             }
 
     }
